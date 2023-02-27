@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/menu_item_search_view"
+            android:icon="@drawable/ic_search"
+            app:showAsAction="ifRoom"
+            app:actionViewClass="android.widget.SearchView"
+            android:title="Search" />
+
+        <item
+            android:id="@+id/menu_item_add_button"
+            android:icon="@drawable/ic_add"
+            app:showAsAction="ifRoom"
+            android:title="Add" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/menu_item_swipe_refresh"
+            app:showAsAction="never"
+            android:title="Refresh" />
+
+        <item
+            android:id="@+id/menu_item_supported_symbols"
+            app:showAsAction="never"
+            android:title="Supported Symbols" />
+
+        <item
+            android:id="@+id/menu_item_log_out"
+            app:showAsAction="never"
+            android:title="Log out" />
+
+    </group>
+</menu>

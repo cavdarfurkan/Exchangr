@@ -1,0 +1,8 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="text_view_horizontal_padding">16dp</dimen>
+    <dimen name="text_layout_horizontal_margin">20dp</dimen>
+    <dimen name="input_text_corner_radius">10dp</dimen>
+</resources>
