@@ -14,7 +14,6 @@ import com.cavdardevelopment.exchangr.viewmodel.AuthViewModel
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
 
 class LoginFragment : Fragment() {
-
     private lateinit var binding: FragmentLoginBinding
     private lateinit var authViewModel: AuthViewModel
 
@@ -26,8 +25,9 @@ class LoginFragment : Fragment() {
         authViewModel = ViewModelProvider(requireActivity())[AuthViewModel::class.java]
 
         // OnClickListeners
-        binding.signInButton.setOnClickListener {logInOnClick()}
-        binding.guestTextButton.setOnClickListener {asGuestOnClick()}
+        binding.signInButton.setOnClickListener { logInOnClick() }
+        binding.guestTextButton.setOnClickListener { asGuestOnClick() }
+        binding.forgotPasswordTextButton.setOnClickListener { forgotPasswordOnClick() }
 
         return binding.root
     }
@@ -41,6 +41,10 @@ class LoginFragment : Fragment() {
 
     private fun asGuestOnClick() {
         startMainActivity()
+    }
+
+    private fun forgotPasswordOnClick() {
+        startActivity(Intent(activity, ForgotPasswordActivity::class.java))
     }
 
     private fun startMainActivity() {
