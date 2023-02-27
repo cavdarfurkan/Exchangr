@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Giriş</string>
+    <string name="sign_up">Kayıt Ol</string>
+    <string name="email">Eposta</string>
+    <string name="email_address">Eposta adresi</string>
+    <string name="add_to_watch_list">İzleme listesine ekle</string>
+    <string name="base">Baz</string>
+    <string name="quote">Karşıt</string>
+    <string name="password">Şifre</string>
+    <string name="forgot_password">Şifremi unuttum</string>
+    <string name="sign_in">Giriş yap</string>
+    <string name="continue_as_guest">Misafir olarak ilerle</string>
+    <string name="forgot_password_sub_text">Lütfen hesabınızla ilişkili e-postayı girin.</string>
+    <string name="send_code">Kod gönder</string>
+    <string name="confirm_password">Şifreni onayla</string>
+    <string name="register">Kayıt ol</string>
+    <string name="currency">Birim</string>
+    <string name="change">Değişim</string>
+    <string name="rate">Miktar</string>
+</resources>

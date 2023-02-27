@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:textAlignment="textStart"
             android:layout_centerVertical="true"
-            android:text="Currency" />
+            android:text="@string/currency" />
 
         <TextView
             style="@style/ListRowSubText"
@@ -28,7 +28,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:text="Change"
+            android:text="@string/change"
             android:textAlignment="center" />
 
         <TextView
@@ -39,7 +39,7 @@
             android:textAlignment="textEnd"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:text="Rate" />
+            android:text="@string/rate" />
 
     </RelativeLayout>
 

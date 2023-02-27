@@ -37,14 +37,14 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:layout_marginBottom="5dp"
-                android:text="Add to watch list" />
+                android:text="@string/add_to_watch_list" />
 
             <com.google.android.material.textfield.TextInputLayout
                 style="@style/InputTextLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:hint="From"
+                android:hint="@string/base"
                 android:labelFor="@id/autoCompleteTextViewBase"
                 android:layout_marginHorizontal="@dimen/text_layout_horizontal_margin">
 
@@ -65,7 +65,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
-                android:hint="To"
+                android:hint="@string/quote"
                 android:labelFor="@id/autoCompleteTextViewQuote"
                 android:layout_marginHorizontal="@dimen/text_layout_horizontal_margin">
 
@@ -82,7 +82,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <Button
-                style="@style/IconButton"
+                style="@style/IconButton.Outlined"
                 android:id="@+id/addButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -125,6 +125,6 @@
         android:layout_marginBottom="30dp"
         android:layout_marginHorizontal="10dp"
         ads:adSize="SMART_BANNER"
-        ads:adUnitId="@string/ADMOB_BANNER_AD_TEST_ID" />
+        ads:adUnitId="@string/ADMOB_BOTTOM_BANNER_AD_UNIT_ID" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,7 +1,22 @@
 <resources>
-    <string name="app_name">Exchangr</string>
+    <string name="app_name" translatable="false">Exchangr</string>
     <string name="log_in">Log in</string>
     <string name="sign_up">Sign Up</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="email_address">Email address</string>
+    <string name="add_to_watch_list">Add to watch list</string>
+    <string name="base">Base</string>
+    <string name="quote">Quote</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="continue_as_guest">Continue as guest</string>
+    <string name="forgot_password_sub_text">Please enter the email associated with your account.</string>
+    <string name="send_code">Send code</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="register">Register</string>
+    <string name="currency">Currency</string>
+    <string name="change">Change</string>
+    <string name="rate">Rate</string>
 </resources>
