@@ -19,4 +19,9 @@
     <string name="currency">Currency</string>
     <string name="change">Change</string>
     <string name="rate">Rate</string>
+    <string name="search">Search</string>
+    <string name="add">Add</string>
+    <string name="refresh">Refresh</string>
+    <string name="supported_symbols">Supported Symbols</string>
+    <string name="log_out">Log out</string>
 </resources>

@@ -8,30 +8,30 @@
             android:icon="@drawable/ic_search"
             app:showAsAction="ifRoom"
             app:actionViewClass="android.widget.SearchView"
-            android:title="Search" />
+            android:title="@string/search" />
 
         <item
             android:id="@+id/menu_item_add_button"
             android:icon="@drawable/ic_add"
             app:showAsAction="ifRoom"
-            android:title="Add" />
+            android:title="@string/add" />
     </group>
 
     <group>
         <item
             android:id="@+id/menu_item_swipe_refresh"
             app:showAsAction="never"
-            android:title="Refresh" />
+            android:title="@string/refresh" />
 
         <item
             android:id="@+id/menu_item_supported_symbols"
             app:showAsAction="never"
-            android:title="Supported Symbols" />
+            android:title="@string/supported_symbols" />
 
         <item
             android:id="@+id/menu_item_log_out"
             app:showAsAction="never"
-            android:title="Log out" />
+            android:title="@string/log_out" />
 
     </group>
 </menu>

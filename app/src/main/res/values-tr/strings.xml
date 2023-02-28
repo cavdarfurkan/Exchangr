@@ -18,4 +18,9 @@
     <string name="currency">Birim</string>
     <string name="change">Değişim</string>
     <string name="rate">Miktar</string>
+    <string name="search">Ara</string>
+    <string name="add">Ekle</string>
+    <string name="refresh">Yenile</string>
+    <string name="supported_symbols">Desteklenen Birimler</string>
+    <string name="log_out">Çıkış yap</string>
 </resources>
