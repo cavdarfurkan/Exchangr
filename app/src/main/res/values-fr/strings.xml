@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="log_in">Se connecter</string>
+    <string name="sign_up">S\'inscrire</string>
+    <string name="email">E-mail</string>
+    <string name="email_address">Adresse e-mail</string>
+    <string name="add_to_watch_list">Ajouter à la liste de surveillance</string>
+    <string name="base">Base</string>
+    <string name="quote">Contrepartie</string>
+    <string name="password">Mot de passe</string>
+    <string name="forgot_password">Mot de passe oublié ?</string>
+    <string name="sign_in">Se connecter</string>
+    <string name="continue_as_guest">Continuer en tant qu\'invité</string>
+    <string name="forgot_password_sub_text">Veuillez entrer l\'adresse e-mail associée à votre compte.</string>
+    <string name="send_code">Envoyer le code</string>
+    <string name="confirm_password">Confirmer le mot de passe</string>
+    <string name="register">S\'inscrire</string>
+    <string name="currency">Devise</string>
+    <string name="change">Changer</string>
+    <string name="rate">Taux</string>
+    <string name="search">Rechercher</string>
+    <string name="add">Ajouter</string>
+    <string name="refresh">Actualiser</string>
+    <string name="supported_symbols">Symboles pris en charge</string>
+    <string name="log_out">Se déconnecter</string>
+</resources>

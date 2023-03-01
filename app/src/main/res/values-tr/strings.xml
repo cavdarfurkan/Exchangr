@@ -2,7 +2,7 @@
 <resources>
     <string name="log_in">Giriş</string>
     <string name="sign_up">Kayıt Ol</string>
-    <string name="email">Eposta</string>
+    <string name="email">E-posta</string>
     <string name="email_address">Eposta adresi</string>
     <string name="add_to_watch_list">İzleme listesine ekle</string>
     <string name="base">Baz</string>

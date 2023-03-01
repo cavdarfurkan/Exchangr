@@ -1,10 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">Exchangr</string>
     <string name="log_in">Log in</string>
     <string name="sign_up">Sign Up</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="email">Email</string>
-    <string name="email_address">Email address</string>
+    <string name="email">E-mail</string>
+    <string name="email_address">E-mail address</string>
     <string name="add_to_watch_list">Add to watch list</string>
     <string name="base">Base</string>
     <string name="quote">Quote</string>
