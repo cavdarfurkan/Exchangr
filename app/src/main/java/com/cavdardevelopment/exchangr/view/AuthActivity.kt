@@ -62,7 +62,7 @@ class AuthActivity : AppCompatActivity() {
         super.onStart()
         // Check if user is signed in (non-null) and update UI accordingly.
         val currentUser = auth.currentUser
-        val isLoggedOut = sharedPreferences.getBoolean("isLoggedOut", false)
+        val isLoggedOut = sharedPreferences.getBoolean("isLoggedOut", true)
 
         if (currentUser != null || !isLoggedOut) {
             Log.i("firebase", "onStart: Logged in")
